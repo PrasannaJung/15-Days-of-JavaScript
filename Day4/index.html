@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Papers-Scissor</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css"
+      integrity="sha512-QfDd74mlg8afgSqm3Vq2Q65e9b3xMhJB4GZ9OcHDVy1hZ6pqBJPWWnMsKDXM7NINoKqJANNGBuVRIpIJ5dogfA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="score-div">
+        <div class="player-div">
+          <span class="score-count player-score">0</span>
+          <h2>Player</h2>
+          <p class="choice player-choice"></p>
+        </div>
+        <div><span class="versus">Vs.</span></div>
+        <div class="computer-div">
+          <span class="score-count computer-score">0</span>
+          <h2>Computer</h2>
+          <p class="choice computer-choice"></p>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="rock">✊</button>
+        <button class="paper">🤚</button>
+        <button class="scissors">✌</button>
+      </div>
+      <p class="emoji rock-em-l ltr-animation hidden">✊</p>
+      <p class="emoji paper-em-l ltr-animation hidden">🤚</p>
+      <p class="emoji scissors-em-l ltr-animation hidden">✌</p>
+      <p class="emoji rock-em-r rtl-animation hidden">✊</p>
+      <p class="emoji paper-em-r rtl-animation hidden">🤚</p>
+      <p class="emoji scissors-em-r rtl-animation hidden">✌</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
