@@ -1,2 +1,2 @@
 
-I'm committed to doing 15 JavaScript projects in 15 days
+Some projects made using Vanilla JavaScript.
